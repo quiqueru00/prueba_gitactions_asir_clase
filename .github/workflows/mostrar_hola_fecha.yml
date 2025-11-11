@@ -1,4 +1,4 @@
-name: Mostrar hola
+name: Mostrar hola fecha
 on:
   push:
     branch: [ main ]
