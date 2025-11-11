@@ -11,5 +11,6 @@ jobs:
         echo "Hola desde el runner de github action"
         echo "Fecha y hora: "
         date
+        ls
         echo "Versión de java "
         java -v || echo "Java no instalado"
