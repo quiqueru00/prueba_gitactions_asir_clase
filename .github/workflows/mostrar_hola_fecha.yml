@@ -1,0 +1,15 @@
+name: Mostrar hola
+on:
+  push:
+    branch: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Escribir hola por la pantalla
+      run: |
+        echo "Hola desde el runner de github action"
+        echo "Fecha y hora: "
+        date
+        echo "Versión de java "
+        java -v || echo "Java no instalado"
